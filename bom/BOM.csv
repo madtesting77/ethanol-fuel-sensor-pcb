@@ -1,0 +1,28 @@
+Designator,Value,Footprint,Part Number,Manufacturer,Quantity,Unit Cost USD,Total Cost USD,Source,Notes
+U1,LM555,DIP-8,NE555,Texas Instruments,1,0.50,0.50,DigiKey,Oscillator IC
+U2,LM358,DIP-8,LM358AN,Texas Instruments,1,0.35,0.35,DigiKey,Dual Op-Amp
+U3,AMS1117-5.0,SOT-223,AMS1117-5.0,Advanced Monolithic Systems,1,0.25,0.25,DigiKey,5V Regulator
+MCU,Arduino Uno,DIP-28,A000066,Arduino,1,25.00,25.00,Arduino Store,Microcontroller
+R1,10k,0805,CF1/4W10K,Any,2,0.02,0.04,DigiKey,Resistor
+R2,47k,0805,CF1/4W47K,Any,2,0.02,0.04,DigiKey,Resistor
+R3,100k,0805,CF1/4W100K,Any,1,0.02,0.02,DigiKey,Resistor
+R4,100k,0805,CF1/4W100K,Any,1,0.02,0.02,DigiKey,Resistor
+R5,1k,0805,CF1/4W1K,Any,1,0.02,0.02,DigiKey,Pull-up resistor
+C1,100nF,0805,GRM21BR71H104KA01L,Murata,3,0.05,0.15,DigiKey,Ceramic capacitor
+C2,10µF,0805,GRM31CR61H106KA19L,Murata,2,0.10,0.20,DigiKey,Ceramic capacitor
+C3,1µF,0805,GRM21BR71A105KA73L,Murata,1,0.05,0.05,DigiKey,Ceramic capacitor
+C4,100µF,1206,GRM31CR61H107ME19L,Murata,1,0.15,0.15,DigiKey,Bulk capacitor
+D1,1N4148,SOD-123,1N4148,Any,1,0.03,0.03,DigiKey,Signal diode
+D2,1N4007,DO-41,1N4007,Any,1,0.05,0.05,DigiKey,Rectifier diode (optional)
+L1,Ferrite Bead,0805,BLM18BA102,Murata,2,0.05,0.10,DigiKey,Noise filtering
+SW1,Push Button,THT,PTSM23EH25-2-LFS,C&K,1,0.30,0.30,DigiKey,Reset button
+J1,USB Type-B,TH,USB-B, Generic,1,0.50,0.50,AliExpress,For programming
+J2,Header 1x6,2.54mm pitch,Generic,1,0.10,0.10,AliExpress,Sensor interface
+J3,Header 1x4,2.54mm pitch,Generic,1,0.10,0.10,AliExpress,Display interface
+DISP1,16x2 LCD,THT,HC1602-A,Generic,1,2.50,2.50,AliExpress,Alphanumeric display
+SENSOR1,Capacitive Probe,Custom,,Custom Design,1,5.00,5.00,Custom Manufacturing,Fuel tank sensor
+PCB,PCB Board,Double Sided,50x60mm,,1,10.00,10.00,JLCPCB/PCBWay,Fabrication
+,,,,,,,,
+"Total BOM Cost (Electronics Only)",,,,,,35.42,,
+"Total BOM Cost (with PCB fabrication)",,,,,,45.42,,
+"Total BOM Cost (with PCB + Sensor)",,,,,,50.42,"Excluding enclosure and assembly"

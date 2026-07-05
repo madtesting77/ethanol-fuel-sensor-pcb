@@ -1,43 +1,61 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
-
-# Temporary files
-*.000
+# KiCad
 *.bak
-*.bck
 *.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*-cache*
-*-bak
-*-bak*
-*~
-~*
-_autosave-*
-\#auto_saved_files\#
-*.tmp
-*-save.pro
-*-save.kicad_pcb
+*.sch-bak
+*-cache.lib
 fp-info-cache
-~*.lck
-\#auto_saved_files#
 
-# Netlist files (exported from Eeschema)
-*.net
+# Gerber and manufacturing files
+*.gbr
+*.gbl
+*.gbo
+*.gbp
+*.gbs
+*.gko
+*.gm1
+*.gm2
+*.gm3
+*.rar
+*.zip
 
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
+# Build artifacts
+*.o
+*.a
+*.so
+*.exe
+*.dll
 
-# Exported BOM files
-*.xml
-*.csv
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
 
-# Archived Backups (KiCad 6.0)
-**/*-backups/*.zip
+# Arduino
+*.ino.hex
+*.ino.bin
+build-*/
 
-# Local git-based history (KiCad 9.0+)
-.history
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# Local project settings
-*.kicad_prl
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Documentation
+*.pdf
+
+# Calibration data (keep local)
+/calibration/data/
+/calibration/*.log
